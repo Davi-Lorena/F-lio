@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    background-color: #000000f6;
+    background: url(../assets/bg-image.jpg) fixed center;
 }
 
 html {
