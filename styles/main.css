@@ -1,17 +1,18 @@
 main {
-    padding-block: 6rem;
+    padding-block: 8rem;
     display: grid;
     justify-content: center;
+    & h2 {
+        color: white;
+        margin-bottom: 5rem;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'Roboto flex', sans-serif;
+    }
     & #projects {
-
-& h2 {
-    color: white;
-    margin-bottom: 3rem;
-    text-align: center;
-    font-size: 2.5rem;
-    font-family: 'Roboto flex', sans-serif;
-
-}
+display: grid;
+justify-content: center;
+gap: 10rem;
 
 & .project {
     display: grid;
@@ -119,5 +120,156 @@ font-size: .875rem;
     }
 }
 }
+
+& #numbers {
+    & h3 {
+        color: #c58de7;
+    }
+
+    & figure {
+        &::before {
+            background: #c58de7;
+        }
+    }
+
+}
+
+& #patins {
+    & h3 {
+        color: #67e8f9;
+    }
+
+    & figure {
+        &::before {
+            background: #67e8f9;
+        }
+    }
+}
+
+& #convites {
+    & h3 {
+        color: #FF598B;
+    }
+
+    & figure {
+        &::before {
+            background: #FF598B;
+        }
+    }
+}
+
+& #livros {
+    & h3 {
+        color: #9547A5;
+    }
+
+    & figure {
+        &::before {
+            background: #9547A5;
+        }
+    }
+}
+
+& #refund {
+    & h3 {
+        color: #1f8459;
+    }
+
+    & figure {
+        &::before {
+            background: #1f8459;
+        }
+    }
+}
+
+& #portfolio {
+    & h3 {
+        color: #E3646E;
+    }
+
+    & figure {
+        &::before {
+            background: #E3646E;
+        }
+    }
+}
+
+& #zingen {
+    & h3 {
+        color: #fc4a1a;
+    }
+
+    & figure {
+        &::before {
+            background: #fc4a1a;
+        }
+    }
+}
+
+& #list {
+& h3 {
+    color: #ca3884;
+}
+
+& figure {
+    &::before {
+        background: #ca3884;
+    }
+}
+
+}
+
+& #matricula {
+    & h3 {
+        color: #FEE7D6;
+    }
+    
+    & figure {
+        &::before {
+            background: #FEE7D6;
+        }
+    }
+    
+    }
+
+    & #regular {
+        & h3 {
+            color: rgb(164, 163, 163);
+        }
+        
+        & figure {
+            &::before {
+                background: #74ad5f;
+            }
+        }
+        
+        }
+
+        & #convert {
+            & h3 {
+                color: #2f34ab;
+            }
+
+            & figure {
+                &::before {
+                    background: #2f34ab;
+                }
+            }
+
+        }
+
+        & #planejador {
+            & h3 {
+                color: #bef264;
+            }
+
+            & figure {
+                &::before {
+                    background: #bef264;
+                }
+            }
+        }
+    
+
     }
 }
