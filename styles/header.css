@@ -2,8 +2,8 @@ header {
     display: grid;
     justify-content: center;
     align-items: center;
-height: 100vw;
-padding-top: 2.5rem;
+height: max-content;
+padding-top: 3rem;
 gap: 1rem;
 
 & #profile {
@@ -64,4 +64,52 @@ transition: all 500ms ease;
 
 }
 
+& #technologies {
+display: flex;
+justify-content: center;
+position: relative;
+margin-top: 3rem;
+margin-bottom: 6rem;
+
+& figure {
+    display: grid;
+text-align: center;
+color: whitesmoke;
+position: absolute;
+img {
+    width: 4.5rem;
+    transition: transform 500ms ease;
+    cursor: pointer;
+
+&:hover {
+transform: scale(1.2);    
 }
+
+}
+
+img[src*="JavaScript"] {
+    width: 3.5rem;
+    margin-bottom: .5rem;
+}
+
+
+}
+
+& figure:nth-child(1) {
+    left: 1rem;
+    top: -1rem;
+}
+
+& figure:nth-child(2) {
+top: 1rem;
+}
+
+& figure:nth-child(3) {
+    right: 1rem;
+    top: -1rem;
+}
+
+}
+
+}
+
