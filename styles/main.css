@@ -10,7 +10,8 @@ main {
         font-family: 'Roboto flex', sans-serif;
     }
     & #projects {
-display: grid;
+display: flex;
+flex-wrap: wrap;
 justify-content: center;
 gap: 10rem;
 
@@ -294,5 +295,17 @@ font-size: .875rem;
             }
         }
 
+    }
+}
+
+@media (width < 350px) {
+    main {
+        & #projects {
+            & .project {
+                & figure {
+                    width: 19rem;
+                }
+            }
+        }
     }
 }
