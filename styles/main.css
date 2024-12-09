@@ -9,6 +9,32 @@ main {
         font-size: 2.5rem;
         font-family: 'Roboto flex', sans-serif;
     }
+
+    
+    & #next {
+        margin-top: 6rem;
+        text-align: center;
+        display: grid;
+    & strong {
+        color: white;
+        font-size: 1.5rem;
+        font-family: 'Roboto flex', sans-serif;
+    }
+
+    & svg {
+        margin-top: 1rem;
+        margin-inline: auto;
+cursor: pointer;
+transition: scale 500ms ease;
+
+&:hover {
+    scale: 1.2;
+}
+
+    }
+
+}
+
     & #projects {
 display: flex;
 flex-wrap: wrap;
@@ -295,6 +321,7 @@ font-size: .875rem;
             }
         }
 
+
     }
 }
 
@@ -306,6 +333,14 @@ font-size: .875rem;
                     width: 19rem;
                 }
             }
+        }
+    }
+}
+
+@media (width >= 1024px) {
+    main {
+        & #next {
+            margin-top: 10rem;
         }
     }
 }
