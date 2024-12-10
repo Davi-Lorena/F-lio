@@ -197,6 +197,19 @@ font-size: .875rem;
     }
 }
 
+& #mundopetdesign {
+    & h3 {
+        color: #9282fa;
+    }
+
+& figure {
+    &::before {
+        background: #9282fa;
+    }
+}
+
+}
+
 & #refund {
     & h3 {
         color: #1f8459;
