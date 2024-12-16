@@ -333,7 +333,18 @@ font-size: .875rem;
                 }
             }
         }
+        
+        & #chatgram {
+            & h3 {
+                color: #78e378;
+            }
 
+            & figure {
+                &::before {
+                    background: #78e378;
+                }
+            }
+        }
 
     }
 }
