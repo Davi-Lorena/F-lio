@@ -346,6 +346,35 @@ font-size: .875rem;
             }
         }
 
+        & #google {
+            & h3 {
+                color: #4285f4;
+
+& b {
+    color: #ea4335;
+}
+
+& #o {
+    color: #fbbc05;
+}
+
+& #l {
+    color: #34a853;
+}
+
+& #e {
+    color: #ea4335;
+}
+
+            }
+
+            & figure {
+                &::before {
+                    background: #fff;
+                }
+            }
+        }
+
     }
 }
 
